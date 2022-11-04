@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600&display=swap');
+/* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/css/google-icons.woff2') format('woff2');
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    object-fit: cover;
+}
+
+.demo-banner {
+    padding-top: 300px;
+    padding-bottom: 230px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 676px) {
+    .demo-banner {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+
+    .demo-banner p {
+        padding-right: 0;
+    }
+
+    .demo-banner h2 {
+        font-size: 36px !important;
+    }
+}
+
+.demo-banner h2 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.demo-banner p {
+    font-size: 20px;
+    padding-right: 30%;
+    line-height: 1.8;
+}
+
+.demo-banner a {
+    margin-top: 20px;
+}
+
+.demo-banner .demo-item {
+    position: absolute;
+    right: -150px;
+    top: 0;
+    width: 500px;
+    border: 10px solid #ffffff;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.demo-banner .demo-item:first-child {
+    transform: rotate(-25deg);
+    top: 50px;
+}
+
+.demo-banner .demo-item:nth-child(2) {
+    transform: rotate(-25deg);
+    right: 420px;
+    top: 14%;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.demo-banner .demo-item:nth-child(3) {
+    transform: rotate(-25deg);
+    right: 215px;
+    top: auto;
+    bottom: -26%;
+    width: 600px;
+}
+
+.demo-banner .demo-item img {
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1399px) {
+    .demo-banner .demo-item:nth-child(3) {
+        right: 214px;
+        bottom: -19%;
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .demo-banner .demo-item {
+        display: none;
+    }
+}
+
+.demo-area .single-item {
+    margin-bottom: 30px;
+}
+
+.demo-area .single-item > a {
+    position: relative;
+    z-index: 1;
+    padding: 50px 30px;
+    padding-bottom: 0;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.demo-area .single-item img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.demo-area .single-item img:first-child {
+    filter: inherit;
+    z-index: 9;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+}
+
+.demo-area .single-item img {
+    border-radius: 8px;
+}
+
+
+.demo-area .single-item h4 {
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.demo-area .site-heading h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0059fc;
+}
+
+.demo-area .site-heading h2 {
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 42px;
+}
+
+.demo-area.bg-gray {
+    background: #fbfbfb;
+}
+
+footer.demo img {
+    height: 60px;
+}
+
+footer.demo .logo {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer.demo {
+    padding: 80px 0;
+}
+
+.nav-logo {
+    max-height: 55px !important;
+}
+
+@media (min-width: 1024px) {
+    #nav-nav > li > a {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-right: 10px;
+    }
+}
+
+.logo-text {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 700;
+    font-size: 31px;
+    text-transform: none;
+}
+
+.logo-text span {
+    color: #104cba;
+    font-size: 35px;
+}
+
+.nav-link-div {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.choose-us-style-one .choose-us-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.choose-us-style-two .thumb img {
+    object-fit: cover;
+}
+
+.banner-area h2 {
+    text-align: center !important;
+    font-size: 60px;
+}
+
+.all-products {
+    justify-content: space-between;
+    row-gap: 32px;
+}
+
+.all-products .single-item .item-title {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.all-products .single-item .item-title a {
+    color: #232323 !important;
+}
+
+.all-products .single-item .item-title a:hover {
+    color: #104cba !important;
+}
+
+.all-products .single-item {
+    min-width: 350px;
+    transition: all 0.4s ease-in-out;
+}
+
+.all-products .single-item .thumb {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.all-products .single-item .product-contact-btn {
+    border: none;
+    padding: 11px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: 500;
+    background: #104cba;
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.all-products .single-item .details-list {
+    font-weight: 500;
+    font-size: 16px
+}
+
+.navbar.brand-style-bg .navbar-header::after, .navbar.brand-style-bg .navbar-header::before {
+    content: none !important;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.navbar-header {
+    padding: 6px 0 !important;
+}
+
+.f-items {
+    padding: 80px 0 60px 0;
+}
+
+@media (max-width: 992px) {
+    footer .f-items {
+        padding: 20px 0 40px 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    footer .f-items .row {
+        justify-content: space-evenly;
+    }
+    footer .f-items .item{
+        width: fit-content !important;
+    }
+}
+
+.all-products .single-item .blog-style-one:hover {
+    background-color: #eee;
+}
+
+@media (max-width: 992px) {
+    .google-maps {
+        display: none;
+    }
+    
+    .google-maps img {
+        width: 100%;
+        max-height: 65vh;
+        object-fit: cover;
+    }
+
+    #contact .form {
+        margin-top: 80px;
+    }
+}
+
+.services-single-content .thumb img {
+    width: 100%;
+    max-height: 60vh;
+    margin-bottom: 25px;
+}
+
+.all-products .single-item .blog-style-one {
+    transition: all 0.4s ease-in-out;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+footer .logo {
+    height: 150px;
+}
+
+footer ul.social {
+    margin-top: 5px
+}
+
+.service-images-swiper .swiper-slide img {
+    /* width: 100px; */
+    height: 100px;
+}
+
+.service-images-swiper .swiper-pagination {
+    position: relative;
+    bottom: -10px
+}
+
+.service-images-swiper .swiper-nav-next, .service-images-swiper .swiper-nav-prev {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 7px;
+    background-color: #104cba;
+    color: white;
+    margin-top: 25px;
+    height: fit-content;
+    padding: 2px 17px;
+    border: 2px solid #104cba;
+    transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s;
+}
+
+.service-images-swiper .swiper-nav-next:hover, .service-images-swiper .swiper-nav-prev:hover {
+    background-color: white;
+    color: #104cba;
+}
+
+.service-images-swiper .swiper-nav-next span, .service-images-swiper .swiper-nav-prev span {
+    font-size: 26px !important;
+}
+
+.service-images-swiper .service-images-nav {
+    display : flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.service-images {
+    margin: 35px 0;
+}
+
+.service-images .service-images-swiper .swiper-slide {
+    width: fit-content !important;
+}
+
+.product-contact-btn a {
+    color: white;
+}
+
+.all-products .single-item .thumb {
+    display: flex;
+    justify-content: center;
+}
+
+.home-services-list li img {
+    opacity: 1 !important;
+}
+
+.process-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.gallery-container img {
+    width: 200px;
+}
+
+.nGY2GThumbnailTitle {
+    color: black;
+    background-color: transparent;
+    margin: 0 10px;
+}
+
+.nGY2 .nGY2GThumbnailLabel {
+    background-color: #001659 !important;
+    bottom: -30px !important;
+    display: none !important;
+}
+
+.nGY2 .nGY2GThumbnailAlbumTitle, .nGY2 .nGY2GThumbnailImageTitle {
+    color: #fff;
+    text-shadow: unset !important;
+    margin: 5px 1px 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: none;
+}
+
+.nGY2 .nGY2GThumbnail {
+    overflow: unset !important;
+    border: unset !important;
+    /* margin: 10px; */
+}
+
+.nGY2 .nGY2GThumbnail .nGY2GThumbnailImg {
+    width: 150px;
+}

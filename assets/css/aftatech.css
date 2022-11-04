@@ -1,0 +1,46 @@
+.navbar-brand>img {
+  height: 130px;
+}
+
+.navbar.brand-style-bg .navbar-header {
+  padding: 10px 0;
+}
+
+.achivement-style-one .item::after {
+  background-color: #104cba;
+  background: linear-gradient(90deg, #00102d 0%, #0059fc 56%) !important;
+}
+
+
+.achivement-style-one .item.bg-gradient::before {
+  top: -20px
+}
+
+footer .logo {
+  margin-bottom: 30px;
+  height: 110px;
+}
+
+.logo .logo-scrolled{
+  height: 80px;
+}
+
+.navbar-common .navbar-brand>img {
+  height: 90px;
+}
+
+.choose-us-style-two .thumb img {
+  border-radius: 5px;
+  height: 308px;
+  width: 100%;
+}
+
+.services-style-two.sales a {
+  padding: 50px 30px !important;
+}
+
+.faq-style-one .thumb img {
+  border-radius: 7px;
+  max-height: 650px;
+  width: 450px;
+}
